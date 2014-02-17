@@ -28,7 +28,7 @@ class Xupdatemaster_CatAccessController extends Xupdatemaster_AbstractAccessCont
 	 * 
 	 * @return	void
 		**/
-	public function __construct(/*** string ***/ $categoryDir, /*** string ***/ $dirname, /*** string ***/ $dataname)
+	public function __construct(/*** string ***/ $categoryDir, /*** string ***/ $dirname, /*** string ***/ $dataname=null)
 	{
 		$this->_mDirname = $dirname;
 		$this->_mCategoryDir = $categoryDir;

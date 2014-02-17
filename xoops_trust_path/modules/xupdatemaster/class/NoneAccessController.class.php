@@ -28,7 +28,7 @@ class Xupdatemaster_NoneAccessController extends Xupdatemaster_AbstractAccessCon
 	 * 
 	 * @return	void
 		**/
-	public function __construct(/*** string ***/ $categoryDir, /*** string ***/ $dirname, /*** string ***/ $dataname)
+	public function __construct(/*** string ***/ $categoryDir, /*** string ***/ $dirname, /*** string ***/ $dataname=null)
 	{
 		$this->_mDirname = $dirname;
 	}
